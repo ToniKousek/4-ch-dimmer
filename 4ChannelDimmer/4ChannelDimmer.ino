@@ -7,9 +7,9 @@
     connect 4 wires from the ch1-ch4 of the circuit to esp32 pins     ch? -> GPIO?  * 4
 */
 
-const byte POTENTIOIMETER_PINS[] = {1, 2, 3, 4}; // numbers and amount of potentiometers changeable
-const byte DIMMER_PINS[] = {6, 9, 10, 11};       // numbers and amount of channels changeable
-const byte INTERRUPT_PIN = 12;
+const byte POTENTIOIMETER_PINS[] = {13, 12, 27, 14}; // numbers and amount of potentiometers changeable
+const byte DIMMER_PINS[] = {5, 18, 19, 21};          // numbers and amount of channels changeable
+const byte INTERRUPT_PIN = 34;
 
 const byte NUM_OF_LIGHTS = 4; // changeable
 const byte MIN_LIGHT = 55;    // the minimum percentage of power that goes to the lamps    changeable
